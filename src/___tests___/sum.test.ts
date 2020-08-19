@@ -11,4 +11,7 @@ describe("correctly sums numbers", () => {
   it("fails", () => {
     expect(sum(1, -2)).toBe(0);
   });
+  it("fails", () => {
+    expect(sum(1, -2)).toBe(0);
+  });
 });
